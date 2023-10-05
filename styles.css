@@ -4,7 +4,7 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
   --bg-primary: #202020;
-  --bg-secondary: #272142;
+  --bg-secondary: #1b1b1b;
   --bg-footer: #282323;
   --primary-color: #e5e5e5;
   --secodary-color: #f65282;
@@ -14,7 +14,7 @@
 }
 .hero {
   height: 100vh;
-  background-color: var(--bg-primary);
+  background-color: var(--bg-secondary);
   background-image: url("images/hero-image-removebg-preview.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -23,6 +23,8 @@
 .hero-text {
   text-align: center;
   color: var(--primary-color);
+  line-height: 2;
+  padding: 160px 20px;
 }
 .hero-text h3 {
   font-family: var(--primary-font);
@@ -44,4 +46,18 @@
   background-color: var(--primary-color);
   font-family: var(--secondary-font);
   padding: 18px 30px;
+  font-weight: 700;
+  line-height: 27px;
+}
+section {
+  padding-top: var(--section-margin);
+  background-color: var(--bg-primary);
+}
+.gallery-space {
+  padding-top: var(--gallery-margin);
+}
+@media (max-width: 560px) {
+  img {
+    padding-bottom: 10px;
+  }
 }
