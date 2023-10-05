@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --bg-primary: #202020;
+  --bg-secondary: #272142;
+  --bg-footer: #282323;
+  --primary-color: #e5e5e5;
+  --secodary-color: #f65282;
+  --border-radius: 50;
+}
