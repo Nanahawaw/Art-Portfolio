@@ -53,9 +53,6 @@ section {
   padding-top: var(--section-margin);
   background-color: var(--bg-primary);
 }
-.gallery-space {
-  padding-top: var(--gallery-margin);
-}
 @media (max-width: 560px) {
   img {
     padding-bottom: 10px;
