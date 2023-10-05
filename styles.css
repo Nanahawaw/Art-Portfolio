@@ -53,6 +53,9 @@ section {
   padding-top: var(--section-margin);
   background-color: var(--bg-primary);
 }
+.img-fluid {
+  height: 280px;
+}
 @media (max-width: 560px) {
   img {
     padding-bottom: 10px;
