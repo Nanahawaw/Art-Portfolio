@@ -77,6 +77,16 @@ section {
   .hero-text {
     padding-bottom: 50px;
   }
+  .caption {
+    text-align: justify;
+  }
+  .medium {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .about-hero {
+    height: auto;
+  }
 }
 /*media query end*/
 .footer-tag {
@@ -93,4 +103,35 @@ section {
 a {
   text-decoration: none;
   color: var(--primary-color);
+}
+/*about*/
+.medium {
+  background-color: var(--bg-footer);
+  max-width: 423px;
+  max-height: 80.57px;
+  padding: 10px;
+  color: var(--primary-color);
+}
+.about-hero {
+  background-color: var(--bg-primary);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+.about-image {
+  background-color: var(--bg-secondary);
+  background-image: url("images/hero-image-removebg-preview.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about-me {
+  color: var(--secodary-color);
+}
+.caption {
+  padding: 20px 40px;
 }
