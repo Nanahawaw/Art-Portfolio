@@ -20,6 +20,32 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="#">Olayink|art</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="about-hero">
       <div class="row">
         <div class="col-sm-6 about-image">
@@ -30,11 +56,12 @@
             <h5 class="about-me">About me</h5>
             <h1 class="mb-4">Olayinka Salami</h1>
             <p class="mb-4 text-justify">
-              "Creating a niche of freedom of mind and expression through art,
-              we pave a pathway where imagination meets reality. As Picasso once
-              said, 'Art is the lie that enables us to realize the truth.' Thus,
-              art remains a steadfast means of communicating our deepest
-              thoughts and most profound ideas."
+              Creating a niche of freedom of mind and expression through art, we
+              pave a pathway where imagination meets reality. As Picasso once
+              said,
+              <em>'Art is the lie that enables us to realize the truth.'</em>
+              Thus, art remains a steadfast means of communicating our deepest
+              thoughts and most profound ideas.
             </p>
             <div class="icons mb-4">
               <span
@@ -53,7 +80,9 @@
               <span>Medium - Oil on Canvas</span>
             </div>
             <div class="mt-4">
-              <button class="btn contact-button">Contact me</button>
+              <button class="btn contact-button">
+                <a href="contact.html">Contact me</a>
+              </button>
             </div>
           </div>
         </div>
