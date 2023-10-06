@@ -65,6 +65,9 @@ section {
   .hero {
     width: 100%;
   }
+  section {
+    padding-top: 0;
+  }
 }
 .footer-tag {
   background-color: var(--bg-footer);
