@@ -72,6 +72,7 @@ section {
   }
   .hero-text {
     padding-bottom: 50px;
+    padding-top: 100px;
   }
   .caption {
     text-align: justify;
@@ -85,12 +86,16 @@ section {
   }
   .about-hero {
     height: auto;
+    padding-top: 10px;
   }
   .contact-button {
     margin: 0 auto;
   }
   .sidebar {
     width: 400px;
+  }
+  .navbar-custom {
+    height: 80px;
   }
 }
 
@@ -168,7 +173,12 @@ a {
   font-size: 14px;
   border-radius: var(--border-radius);
 }
-.contact-button:hover {
+.contact-button a,
+.get-started-btn a {
+  color: black;
+}
+.contact-button:hover,
+.get-started-btn:hover {
   background-color: var(--secodary-color);
   color: var(--primary-color);
 }
