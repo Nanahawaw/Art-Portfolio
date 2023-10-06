@@ -118,9 +118,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
   max-width: 100%;
-  overflow: hidden;
+}
+.about-hero .row {
+  --bs-gutter-x: 0;
 }
 .about-image {
   background-color: var(--bg-secondary);
