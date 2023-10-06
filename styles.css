@@ -56,6 +56,7 @@ section {
 .img-fluid {
   height: 280px;
 }
+/*Media-query*/
 @media (max-width: 560px) {
   img {
     padding-bottom: 10px;
@@ -68,7 +69,15 @@ section {
   section {
     padding-top: 0;
   }
+  footer .footer-tag .footer-element {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-text {
+    padding-bottom: 0;
+  }
 }
+/*media query end*/
 .footer-tag {
   background-color: var(--bg-footer);
   color: var(--primary-color);
