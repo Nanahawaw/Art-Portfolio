@@ -75,7 +75,7 @@ section {
     grid-template-columns: 1fr 1fr;
   }
   .hero-text {
-    padding-bottom: 0;
+    padding-bottom: 20px;
   }
 }
 /*media query end*/
