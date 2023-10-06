@@ -172,3 +172,20 @@ a {
   background-color: var(--secodary-color);
   color: var(--primary-color);
 }
+.navbar-custom {
+  background-color: var(--bg-primary);
+  color: var(--primary-color);
+}
+.nav-link {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active {
+  color: var(--secodary-color);
+}
+.navbar-brand {
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
