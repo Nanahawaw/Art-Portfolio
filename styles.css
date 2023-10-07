@@ -180,7 +180,6 @@ a {
 /*Media-query*/
 @media (max-width: 560px) {
   img {
-    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
   }
@@ -214,6 +213,7 @@ a {
   }
   .navbar-custom {
     height: 80px;
+    padding-bottom: 0;
   }
   .gallery {
     font-size: 40px;
