@@ -216,7 +216,6 @@ a {
   .gallery {
     font-size: 40px;
     padding-bottom: 10px;
-    padding-top: 0;
   }
 }
 @media (max-width: 990px) {
