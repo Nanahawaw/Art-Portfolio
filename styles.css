@@ -178,8 +178,7 @@ a {
   font-size: 62px;
   text-transform: uppercase;
 }
-.contact-info {
-}
+
 /*Media-query*/
 @media (max-width: 560px) {
   img {
@@ -222,6 +221,9 @@ a {
   }
   .socials a i {
     color: var(--secodary-color);
+  }
+  .contact-section h1 {
+    font-size: 40px;
   }
 }
 @media (max-width: 990px) {
