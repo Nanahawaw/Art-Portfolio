@@ -216,3 +216,15 @@ a {
     font-size: 18px;
   }
 }
+.gallery {
+  background-color: var(--bg-primary);
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  padding-top: 32px;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+}
