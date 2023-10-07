@@ -56,47 +56,7 @@ section {
 .img-fluid {
   height: 280px;
 }
-/*Media-query*/
-@media (max-width: 560px) {
-  img {
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-  }
-  .hero {
-    height: auto;
-    width: 100%;
-  }
-  section {
-    padding-top: 0;
-  }
-  .hero-text {
-    padding-bottom: 50px;
-    padding-top: 100px;
-  }
-  .caption {
-    text-align: justify;
-  }
-  .medium {
-    padding: 5px;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .about-hero {
-    height: auto;
-    padding-top: 10px;
-  }
-  .contact-button {
-    margin: 0 auto;
-  }
-  .navbar-custom {
-    height: 80px;
-  }
-}
 
-/*media query end*/
 .footer-tag {
   background-color: var(--bg-footer);
   color: var(--primary-color);
@@ -194,6 +154,61 @@ a {
   font-family: var(--primary-font);
   font-weight: 500;
 }
+
+.gallery {
+  background-color: var(--bg-primary);
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 72px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  padding-top: 32px;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+}
+/*Media-query*/
+@media (max-width: 560px) {
+  img {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .hero {
+    height: auto;
+    width: 100%;
+  }
+  section {
+    padding-top: 0;
+  }
+  .hero-text {
+    padding-bottom: 50px;
+    padding-top: 100px;
+  }
+  .caption {
+    text-align: justify;
+  }
+  .medium {
+    padding: 5px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-hero {
+    height: auto;
+    padding-top: 10px;
+  }
+  .contact-button {
+    margin: 0 auto;
+  }
+  .navbar-custom {
+    height: 80px;
+  }
+  .gallery {
+    font-size: 40px;
+  }
+}
 @media (max-width: 990px) {
   .sidebar {
     max-width: 85%;
@@ -216,15 +231,4 @@ a {
     font-size: 18px;
   }
 }
-.gallery {
-  background-color: var(--bg-primary);
-  color: var(--primary-color);
-  font-family: var(--primary-font);
-  font-size: 72px;
-  font-weight: 700;
-  margin: 0;
-  text-align: center;
-  padding-top: 32px;
-  letter-spacing: 10%;
-  text-transform: uppercase;
-}
+/*media query end*/
