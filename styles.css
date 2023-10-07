@@ -91,9 +91,6 @@ section {
   .contact-button {
     margin: 0 auto;
   }
-  .sidebar {
-    width: 400px;
-  }
   .navbar-custom {
     height: 80px;
   }
@@ -192,10 +189,29 @@ a {
   font-family: var(--primary-font);
   font-weight: 500;
 }
-.navbar-nav .nav-link.active {
-  color: var(--secodary-color);
-}
+
 .navbar-brand {
   font-family: var(--primary-font);
   font-weight: 500;
+}
+@media (max-width: 990px) {
+  .sidebar {
+    max-width: 85%;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+  .nav-link,
+  .active {
+    color: var(--primary-color);
+    text-align: center;
+  }
+  .socials {
+    color: var(--secodary-color);
+  }
+  .offcanvas-body {
+    margin: 0 auto;
+    margin-top: 50%;
+    font-family: var(--secodary-color);
+    font-size: 18px;
+  }
 }
