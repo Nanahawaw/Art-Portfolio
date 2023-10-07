@@ -197,8 +197,9 @@ a {
 @media (max-width: 990px) {
   .sidebar {
     max-width: 85%;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(50px);
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
   }
   .nav-link,
   .active {
