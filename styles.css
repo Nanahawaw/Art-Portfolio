@@ -218,6 +218,9 @@ a {
     padding-bottom: 10px;
     padding-top: 70px;
   }
+  .socials a i {
+    color: var(--secodary-color);
+  }
 }
 @media (max-width: 990px) {
   .sidebar {
@@ -226,14 +229,11 @@ a {
     -webkit-backdrop-filter: blur(35px);
     backdrop-filter: blur(10px);
   }
-  .nav-link,
-  .active {
+  .nav-link {
     color: var(--primary-color);
     text-align: center;
   }
-  .socials {
-    color: var(--secodary-color);
-  }
+
   .offcanvas-body {
     margin: 0 auto;
     margin-top: 50%;
