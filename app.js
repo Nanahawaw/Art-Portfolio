@@ -13,3 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 //end of active class script
+//toggle light and dark theme
+let icon = document.querySelector(".dark-icon");
+icon.addEventListener("click", function () {
+  document.body.classList.toggle("light-theme");
+  if (document.body.classList.contains("light-theme")) {
+    icon.src = "images/moon-regular.svg";
+  } else {
+    icon.src = "images/sun-solid.svg";
+  }
+});
