@@ -178,7 +178,10 @@ a {
   font-size: 62px;
   text-transform: uppercase;
 }
-
+.navbar-nav .nav-link.active,
+.active {
+  color: var(--secodary-color);
+}
 /*Media-query*/
 @media (max-width: 560px) {
   img {
