@@ -1,3 +1,4 @@
+//add active class across pages
 document.addEventListener("DOMContentLoaded", function () {
   let currentPath = window.location.pathname;
   let navLinks = document.querySelectorAll(".navbar-nav .nav-item .nav-link");
@@ -11,3 +12,4 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+//end of active class script
