@@ -301,3 +301,7 @@ a {
   filter: invert(1);
   cursor: pointer;
 }
+.copyright a {
+  text-decoration: underline;
+  color: blue;
+}
