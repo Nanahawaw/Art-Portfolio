@@ -32,13 +32,13 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.classList.toggle("light-theme");
 
     if (document.body.classList.contains("light-theme")) {
-      iconImg.src = "images/moon-regular.svg";
-      localStorage.setItem("theme", "light-theme");
-      localStorage.setItem("icon", "images/moon-regular.svg");
-    } else {
       iconImg.src = "images/sun-solid.svg";
-      localStorage.removeItem("theme");
+      localStorage.setItem("theme", "light-theme");
       localStorage.setItem("icon", "images/sun-solid.svg");
+    } else {
+      iconImg.src = "images/moon-regular.svg";
+      localStorage.removeItem("theme");
+      localStorage.setItem("icon", "images/moon-regular.svg");
     }
   });
 });
