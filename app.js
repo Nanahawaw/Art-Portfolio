@@ -15,22 +15,30 @@ document.addEventListener("DOMContentLoaded", function () {
 //end of active class script
 //toggle light and dark theme
 document.addEventListener("DOMContentLoaded", function () {
-  // On page load, check for the saved theme in localStorage
+  // On page load, check for the saved theme and icon in localStorage
   const savedTheme = localStorage.getItem("theme");
+  const savedIcon = localStorage.getItem("icon");
+
+  // Get the icon element
+  let iconImg = document.querySelector(".dark-icon img");
+
+  // Set the saved theme and icon
   if (savedTheme) {
     document.body.classList.add(savedTheme);
+    iconImg.src = savedIcon;
   }
 
-  let iconImg = document.querySelector(".dark-icon img");
   iconImg.addEventListener("click", function () {
     document.body.classList.toggle("light-theme");
 
     if (document.body.classList.contains("light-theme")) {
       iconImg.src = "images/moon-regular.svg";
-      localStorage.setItem("theme", "light-theme"); // Save theme to localStorage
+      localStorage.setItem("theme", "light-theme");
+      localStorage.setItem("icon", "images/moon-regular.svg");
     } else {
       iconImg.src = "images/sun-solid.svg";
-      localStorage.removeItem("theme"); // Remove theme from localStorage
+      localStorage.removeItem("theme");
+      localStorage.setItem("icon", "images/sun-solid.svg");
     }
   });
 });

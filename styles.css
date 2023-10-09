@@ -16,14 +16,36 @@
 .light-theme {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
-  --bg-primary: #0c0c2c;
-  --bg-secondary: #f0f8fa;
-  --bg-footer: #0c0c2c;
-  --primary-color: #e5e5e5;
+  --bg-primary: #ebebe6;
+  --bg-secondary: #ebebe6;
+  --bg-footer: #6874a3;
+  --primary-color: #000;
   --secodary-color: #f65282;
   --border-radius: 50px;
   --section-margin: 100px;
   --gallery-margin: 40px;
+  .about-image {
+    background-color: #ebebed;
+  }
+  .about-image {
+    background-color: #c3cbe3;
+  }
+  .hero {
+    background-color: rgba(128, 143, 176, 0.2);
+  }
+  .navbar-brand {
+    color: #000;
+  }
+  .dark-icon img {
+    filter: none;
+  }
+  .get-started-btn {
+    background-color: #f65282;
+    color: #ffff;
+  }
+  .navbar-toggler {
+    background-color: #000;
+  }
 }
 /* end of light theme */
 body {
